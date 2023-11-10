@@ -37,11 +37,14 @@ main {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+
+    transition: width .5s, heigth .5s;
+    transition-timing-function: ease;
 }
 
 #login>#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/img.jpeg)no-repeat;
+    background: #5f2c82 url(../imagens/img-mobile.jpg)no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 200px;
